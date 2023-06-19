@@ -45,13 +45,13 @@
           alert('Não vai navegar')
         },
         exibirAlerta(){
-          alert('voce apertou enter')
+          alert('voce apertou enter') // modificador de acesso da tecla enter
         },
         // parar(e){
         //   e.stopPropagation() // não deixa um evento padrão acontecer
         // }
         exibirAlertaQualquerTecla(){
-          alert('voce apertou qualquer tecla')
+          alert('voce apertou qualquer tecla') // pega o acesso de qualquer tecla
         },
       } 
     }

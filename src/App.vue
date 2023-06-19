@@ -12,10 +12,21 @@
     <div v-for="obj in todos" v-bind:key="obj.id">
       {{ obj.title }}
     </div>
-
+    <hr>
     <the-body />
-
+    <hr>
     <eventos />
+    <hr>
+    <!-- <desafio-teste /> -->
+    <!--<desafio-eventos />-->
+    <js-template />
+    <hr>
+    <two-way />
+    <hr>
+    <propiedades-reativas />
+    <hr>
+    <sintaxe-reduzida />
+
   </div>
 
 
@@ -25,6 +36,12 @@
 import TheHeader from './components/TheHeader.vue'
 import TheBody from './components/TheBody.vue';
 import Eventos from './components/Eventos.vue';
+//import DesafioTeste from './components/DesafioTeste.vue';
+//import DesafioEventos from './components/DesafioEventos.vue';
+import JsTemplate from './components/JsTemplate.vue';
+import TwoWay from './components/TwoWay.vue';
+import PropiedadesReativas from './components/PropiedadesReativas.vue';
+import SintaxeReduzida from './components/SintaxeReduzida.vue';
 
 export default {
   name: 'App',
@@ -32,6 +49,12 @@ export default {
     TheHeader,
     TheBody,
     Eventos,
+    //DesafioTeste,
+    //DesafioEventos
+    JsTemplate,
+    TwoWay,
+    PropiedadesReativas,
+    SintaxeReduzida
   },
   data() {
     return {
