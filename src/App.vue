@@ -26,6 +26,11 @@
     <propiedades-reativas />
     <hr>
     <sintaxe-reduzida />
+    <hr>
+    <!--<desafio-propriedades-reativas />-->
+    <estilos-dinamicos />
+    <hr>
+    <desafio-estilos />
 
   </div>
 
@@ -42,6 +47,10 @@ import JsTemplate from './components/JsTemplate.vue';
 import TwoWay from './components/TwoWay.vue';
 import PropiedadesReativas from './components/PropiedadesReativas.vue';
 import SintaxeReduzida from './components/SintaxeReduzida.vue';
+//import DesafioPropriedadesReativas from './components/DesafioPropReativas.vue';
+import EstilosDinamicos from './components/EstilosDinamicos.vue';
+import DesafioEstilos from './components/DesafioEstilos.vue';
+
 
 export default {
   name: 'App',
@@ -49,12 +58,17 @@ export default {
     TheHeader,
     TheBody,
     Eventos,
-    //DesafioTeste,
-    //DesafioEventos
+    //Desafio2Teste,
+    //Desafio1Eventos
     JsTemplate,
     TwoWay,
     PropiedadesReativas,
-    SintaxeReduzida
+    SintaxeReduzida,
+    //DesafioPropriedadesReativas
+    EstilosDinamicos,
+    DesafioEstilos
+
+    
   },
   data() {
     return {

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1>Propiedades Reativas</h1>
         <h2>contador: {{ contador }} | {{ contador2 }}</h2>
         <h2> resultado: {{ resultado }}</h2>
         <button v-on:click="aumentar">aumentar</button>
