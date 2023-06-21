@@ -30,11 +30,10 @@
     <!--<desafio-propriedades-reativas />-->
     <estilos-dinamicos />
     <hr>
-    <desafio-estilos />
+    <!--<desafio-estilos /> -->
+    <condicionais />
 
   </div>
-
-
 </template>
 
 <script>
@@ -49,8 +48,8 @@ import PropiedadesReativas from './components/PropiedadesReativas.vue';
 import SintaxeReduzida from './components/SintaxeReduzida.vue';
 //import DesafioPropriedadesReativas from './components/DesafioPropReativas.vue';
 import EstilosDinamicos from './components/EstilosDinamicos.vue';
-import DesafioEstilos from './components/DesafioEstilos.vue';
-
+//import DesafioEstilos from './components/DesafioEstilos.vue';
+import Condicionais from './components/Condicionais.vue';
 
 export default {
   name: 'App',
@@ -66,7 +65,8 @@ export default {
     SintaxeReduzida,
     //DesafioPropriedadesReativas
     EstilosDinamicos,
-    DesafioEstilos
+    //DesafioEstilos
+    Condicionais
 
     
   },
