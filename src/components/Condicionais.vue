@@ -10,6 +10,13 @@
         <button @click="logado = !logado">{{ logado ? 'Sair' : 'Entrar' }}</button>
         <p><input type="checkbox" v-model="anonimo">anonimo?</p>
     </div>
+    <hr>
+    <footer v-show="logado">
+        desenvolvido por: {{ nomeAutor }}
+    </footer>
+    <footer v-show="anonimo">
+        desenvolvido para voce anonimo 👀
+    </footer>
 
 </template>
 
@@ -20,6 +27,7 @@
                 nome: 'Maria',
                 logado: false,
                 anonimo: true,
+                nomeAutor: 'Walter'
 
 
 

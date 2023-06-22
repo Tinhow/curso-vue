@@ -19,8 +19,8 @@
         methods:{
             somar(){
                 this.contador ++
-            }
-            
+            },
+        
         }
     }
 </script>

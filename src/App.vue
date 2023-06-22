@@ -32,6 +32,10 @@
     <hr>
     <!--<desafio-estilos /> -->
     <condicionais />
+    <hr>
+    <listas-condicionais />
+    <hr>
+    <desafio-condicionais />
 
   </div>
 </template>
@@ -50,6 +54,8 @@ import SintaxeReduzida from './components/SintaxeReduzida.vue';
 import EstilosDinamicos from './components/EstilosDinamicos.vue';
 //import DesafioEstilos from './components/DesafioEstilos.vue';
 import Condicionais from './components/Condicionais.vue';
+import ListasCondicionais from './components/ListasCondicionais.vue';
+import DesafioCondicionais from './components/DesafioCondicionais.vue';
 
 export default {
   name: 'App',
@@ -66,7 +72,9 @@ export default {
     //DesafioPropriedadesReativas
     EstilosDinamicos,
     //DesafioEstilos
-    Condicionais
+    Condicionais,
+    ListasCondicionais,
+    DesafioCondicionais,
 
     
   },
