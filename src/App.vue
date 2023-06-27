@@ -35,8 +35,9 @@
     <hr>
     <listas-condicionais />
     <hr>
-    <desafio-condicionais />
-
+    <!--<desafio-condicionais />-->
+    <projeto-jogo-monstro />
+    
   </div>
 </template>
 
@@ -55,7 +56,8 @@ import EstilosDinamicos from './components/EstilosDinamicos.vue';
 //import DesafioEstilos from './components/DesafioEstilos.vue';
 import Condicionais from './components/Condicionais.vue';
 import ListasCondicionais from './components/ListasCondicionais.vue';
-import DesafioCondicionais from './components/DesafioCondicionais.vue';
+//import DesafioCondicionais from './components/DesafioCondicionais.vue';
+import ProjetoJogoMonstro from './components/ProjetoJogoMonstro.vue';
 
 export default {
   name: 'App',
@@ -74,7 +76,9 @@ export default {
     //DesafioEstilos
     Condicionais,
     ListasCondicionais,
-    DesafioCondicionais,
+    //DesafioCondicionais,
+    ProjetoJogoMonstro
+    
 
     
   },
